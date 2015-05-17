@@ -14,6 +14,7 @@
 		A2619F9E1B05D97100EF12E9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2619F9D1B05D97100EF12E9 /* Images.xcassets */; };
 		A2619FA11B05D97100EF12E9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2619F9F1B05D97100EF12E9 /* LaunchScreen.xib */; };
 		A2619FAD1B05D97100EF12E9 /* CocoaPodsTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2619FAC1B05D97100EF12E9 /* CocoaPodsTestTests.m */; };
+		A2F79DF61B0893F5006B1A87 /* myprofile.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F79DF51B0893F5006B1A87 /* myprofile.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		A2619FA61B05D97100EF12E9 /* CocoaPodsTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaPodsTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2619FAB1B05D97100EF12E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2619FAC1B05D97100EF12E9 /* CocoaPodsTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaPodsTestTests.m; sourceTree = "<group>"; };
+		A2F79DF41B0893F5006B1A87 /* myprofile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = myprofile.h; path = CocoaPodsTest/myprofile.h; sourceTree = "<group>"; };
+		A2F79DF51B0893F5006B1A87 /* myprofile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = myprofile.m; path = CocoaPodsTest/myprofile.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 		A2619F841B05D97100EF12E9 = {
 			isa = PBXGroup;
 			children = (
+				A2F79DF41B0893F5006B1A87 /* myprofile.h */,
+				A2F79DF51B0893F5006B1A87 /* myprofile.m */,
 				A2619F8F1B05D97100EF12E9 /* CocoaPodsTest */,
 				A2619FA91B05D97100EF12E9 /* CocoaPodsTestTests */,
 				A2619F8E1B05D97100EF12E9 /* Products */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2619F991B05D97100EF12E9 /* ViewController.m in Sources */,
+				A2F79DF61B0893F5006B1A87 /* myprofile.m in Sources */,
 				A2619F961B05D97100EF12E9 /* AppDelegate.m in Sources */,
 				A2619F931B05D97100EF12E9 /* main.m in Sources */,
 			);
@@ -416,6 +422,7 @@
 				A2619FB21B05D97100EF12E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A2619FB31B05D97100EF12E9 /* Build configuration list for PBXNativeTarget "CocoaPodsTestTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				A2619FB51B05D97100EF12E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
